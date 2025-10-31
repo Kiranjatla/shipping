@@ -4,8 +4,8 @@ externalSecrets:
   enabled: false
 resources:
   limits:
-    cpu: 2000m
-    memory: 3096Mi
+    cpu: 1000m
+    memory: 1024Mi
   requests:
-    cpu: 1600m
-    memory: 2500Mi
+    cpu: 800m
+    memory: 800Mi
