@@ -1,7 +1,7 @@
-#appPort: 8080
-#appName: shipping
-#externalSecrets:
-#  enabled: false
+appPort: 8080
+appName: shipping
+externalSecrets:
+  enabled: true
 #resources:
 #  limits:
 #    cpu: 1000m
