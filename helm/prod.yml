@@ -10,4 +10,4 @@ externalSecrets:
 #    cpu: 800m
 #    memory: 800Mi
 java:
-  xmx: "750m"
+  xmx: "650m"
