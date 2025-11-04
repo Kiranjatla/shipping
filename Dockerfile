@@ -1,4 +1,4 @@
-FROM          amazoncorretto:17
+FROM          amazoncorretto:21
 RUN           yum install shadow-utils -y
 RUN           useradd roboshop
 RUN           mkdir /app
