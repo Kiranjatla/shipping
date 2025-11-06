@@ -4,10 +4,10 @@ externalSecrets:
   enabled: true
 resources:
   limits:
-    cpu: 2500m
-    memory: 3096Mi
+    cpu: 400m
+    memory: 4Gi
   requests:
-    cpu: 2000m
-    memory: 3000Mi
+    cpu: 300m
+    memory: 3Gi
 #java:
 #  xmx: "650m"
