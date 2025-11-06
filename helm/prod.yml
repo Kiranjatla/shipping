@@ -4,11 +4,11 @@ externalSecrets:
   enabled: true
 resources:
   limits:
-    cpu: 800m
-    memory: 3800Mi
+    cpu: 2000m
+    memory: 3096Mi
   requests:
-    cpu: 400m
-    memory: 3000Mi
+    cpu: 1600m
+    memory: 2500Mi
 env:
   - name: JAVA_OPTS
     value: "-Xmx3000m" # Max heap set to 3000m, safely under the 3800Mi limit
