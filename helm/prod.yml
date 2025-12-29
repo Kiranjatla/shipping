@@ -12,5 +12,4 @@ resources:
 env:
   - name: JAVA_OPTS
     value: "-Xmx3500m" # Max heap set to 3500m, safely under the 3800Mi limit
-#java:
-#  xmx: "650m"
+
